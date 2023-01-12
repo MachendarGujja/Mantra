@@ -1,0 +1,13 @@
+.head{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    /* top: 0; */
+    background-color: white;
+    /* padding: 5px 5px; */
+    /* padding-left: 3px; */
+}
