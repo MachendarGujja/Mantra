@@ -11,3 +11,35 @@
     /* padding: 5px 5px; */
     /* padding-left: 3px; */
 }
+@media (min-width: 768px){
+    .head-but{
+        /* font-size: 10px;
+         */
+         width: 100px;
+         height: 25px;
+         border: none;
+         background-color: transparent;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+.head-but{
+    /* font-size: 10px;
+     */
+     width: 70px;
+     height: 20px;
+     border: none;
+     background-color: transparent;
+}
+}
+@media (min-width: 480px) and (max-width: 575px){
+    .head-but{
+        /* font-size: 10px;
+         */
+         width: 60px;
+         height: 18px;
+         border: none;
+         background-color: transparent;
+    }
+    }
+    .head-but{
+        cursor: pointer;}

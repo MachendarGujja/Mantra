@@ -1,12 +1,13 @@
 import React from 'react'
+import './Styles.css'
 
 const Footer = () => {
   return (
-    <div style={{width:'100%',height:200,display:'flex',flexDirection:'column'}}>
+    <div className='foot' style={{width:'100%',height:200,display:'flex',flexDirection:'column'}}>
       <div style={{display:'flex',width:'100%',padding:0,margin:0,justifyContent:'space-evenly'}}>
         <div>
         <h4>Opalin &#174;</h4>
-        <p>We're a completely remote company, working across twenty<br/> countries with over 20,000 customers.</p>
+        <p >We're a completely remote company, working across twenty<br/> countries with over 20,000 customers.</p>
         </div>
         <div>
           <h4>Info</h4>

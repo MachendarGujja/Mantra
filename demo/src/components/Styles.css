@@ -1,3 +1,4 @@
+@media (min-width: 1200px){
 .black{
     background-color: black;
     color:white;
@@ -14,11 +15,232 @@
     padding: 10px 15px;
     border-radius: 7px;
 }
+.free-price{
+    font-size: 27px;
+}
+.card-mo{
+    font-size: 14px;
+    margin-top: 28px;
+}
+.card-but{
+    height: 43px;
+}
 .item-css{
-    width: 250px;
+    width: 260px;
+    /* flex-wrap: wrap; */
     height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .black{
+        background-color: black;
+        color:white;
+        height:300px;
+        width:240px;
+        padding: 10px 15px;
+        border-radius: 7px;
+    }
+    .white{
+        background-color: white;
+        color: black;
+        height:300px;
+        width:240px;
+        padding: 10px 15px;
+        border-radius: 7px;
+    }
+    .card-but{
+        height: 38px;
+    }
+    .item-css{
+        width: 220px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-mo{
+        font-size: 12px;
+        margin-top: 25px;
+    }
+    .des{
+        font-size: 13px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .black{
+        background-color: black;
+        color:white;
+        height:250px;
+        width:185px;
+        padding: 10px 15px;
+        border-radius: 7px;
+    }
+    .white{
+        background-color: white;
+        color: black;
+        height:250px;
+        width:185px;
+        padding: 10px 15px;
+        border-radius: 7px;
+    }
+    .card-name{
+        font-size: 12px;
+    }
+    .free-price{
+        font-size: 26px;
+    }
+    .card-price{
+        font-size: 14px;
+    }
+    .card-mo{
+        font-size: 9px;
+        margin-top: 20px;
+    }
+    .card-descri{
+        font-size: 13px;
+    }
+    .card-list{
+        font-size: 13px;
+    }
+    .card-but{
+        height: 30px;
+    }
+    .item-css{
+        width: 240px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .des{
+        font-size: 13px;
+    }
+    .foot h4{
+        font-size: 14px;
+    }
+    .foot p{
+        font-size: 12px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .black{
+        background-color: black;
+        color:white;
+        height:250px;
+        width:130px;
+        padding: 10px 15px;
+        border-radius: 7px;
+    }
+    .white{
+        background-color: white;
+        color: black;
+        height:250px;
+        width:130px;
+        padding: 10px 15px;
+        border-radius: 7px;
+    }
+    .card-name{
+        font-size: 12px;
+    }
+    .free-price{
+        font-size: 18px;
+    }
+    .card-price{
+        font-size: 9px;
+    }
+    .card-mo{
+        font-size: 7px;
+        margin-top: 17px;
+    }
+    .card-descri{
+        font-size: 10px;
+    }
+    .card-list{
+        font-size: 10px;
+    }
+    .card-but{
+        height: 22px;
+        font-size: 10px;
+    }
+    .item-css{
+        width: 240px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .des{
+        font-size: 13px;
+    }
+    .foot h4{
+        font-size: 12px;
+    }
+    .foot p{
+        font-size: 10px;
+    }
+}
+@media (min-width: 480px) and (max-width: 575px){
+    .black{
+        background-color: black;
+        color:white;
+        height:250px;
+        width:100px;
+        padding: 10px 15px;
+        border-radius: 7px;
+    }
+    .white{
+        background-color: white;
+        color: black;
+        height:250px;
+        width:100px;
+        padding: 10px 15px;
+        border-radius: 7px;
+    }
+    .card-name{
+        font-size: 10px;
+    }
+    .free-price{
+        font-size: 16px;
+    }
+    .card-price{
+        font-size: 7px;
+    }
+    .card-mo{
+        font-size: 7px;
+        margin-top: 10px;
+    }
+    .card-descri{
+        font-size: 9px;
+    }
+    .card-list{
+        font-size: 9px;
+    }
+    .card-but{
+        height: 24px;
+        font-size: 8px;
+    }
+    .item-css{
+        width: 150px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .des{
+        font-size: 13px;
+    }
+    .foot h4{
+        font-size: 10px;
+    }
+    .foot p{
+        font-size: 8px;
+    }
 }

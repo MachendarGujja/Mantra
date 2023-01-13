@@ -159,7 +159,7 @@ const Content = () => {
   return (
     <div className='content'>
       <div className='content-css'>
-      <h1 style={{paddingTop:40}}>Find the perfect plan for your business.</h1>
+      <h1 className='top-title' style={{paddingTop:40}}>Find the perfect plan for your business.</h1>
       <div className='card-css'>
       {price.map((e)=>
       <Price card={e} key={e.id}/>)
@@ -178,13 +178,13 @@ const Content = () => {
           <label htmlFor='usernames' className='tit'>Name</label>
           <input type='text' name="username" id="usernames" className='in' placeholder='Name' value={name}
               onChange={(e) => setName(e.target.value)}/>
-          <p style={{color:'red'}}>{formErrors.username}</p>
+          <p className='err' style={{color:'red'}}>{formErrors.username}</p>
           </div>
           <div style={{display:'flex',flexDirection:'column'}}>
           <label htmlFor='email' className='tit'>Email</label>
           <input type='email' id='email' name="email" className='in' value={email}
               onChange={(e) => setEmail(e.target.value)} placeholder='Email'/>
-          <p style={{color:'red'}}>{formErrors.email}</p>
+          <p className='err' style={{color:'red'}}>{formErrors.email}</p>
           </div>
           </div>
           <div style={{display:'flex'}}>
@@ -192,13 +192,13 @@ const Content = () => {
           <label htmlFor='designation' className='tit'>Designation</label>
           <input type='text' id='designation' name='designation' className='in' placeholder='Designation' value={designation}
               onChange={(e) => setDesignation(e.target.value)}/>
-          <p style={{color:'red'}}>{formErrors.designation}</p>
+          <p className='err' style={{color:'red'}}>{formErrors.designation}</p>
           </div>
           <div style={{display:'flex',flexDirection:'column'}}>
           <label htmlFor='phone' className='tit'>Contact</label>
           <input type='phone' id='phone' name='contact' className='in' placeholder='Contact' value={contact}
               onChange={(e) => setContact(e.target.value)}/>
-          <p style={{color:'red'}}>{formErrors.contact}</p>
+          <p className='err' style={{color:'red'}}>{formErrors.contact}</p>
           </div>
           </div>
           <div style={{width:'100%',display:'flex',alignItems:'center',justifyContent:'center'}}>
