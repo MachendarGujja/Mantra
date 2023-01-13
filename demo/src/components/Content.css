@@ -54,7 +54,20 @@
 }
 .in{
     border: none;
-    height: 31px;
-    width: 240px;
-    
+    height: 35px;
+    width: 260px;
+    border-radius: 5px;
+    padding-left: 12px;
+    outline: none;
+    box-shadow: rgba(235, 235, 241, 0.096) 0px 7px 29px 0px;
+}
+.btn{
+    background-image: linear-gradient(to right,lightblue, blue);
+    height: 35px;
+    width: 170px;
+    border: none;
+    box-shadow: rgba(235, 235, 241, 0.096) 0px 7px 29px 0px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
 }

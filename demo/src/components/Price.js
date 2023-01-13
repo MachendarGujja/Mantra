@@ -16,7 +16,7 @@ const Price = ({card}) => {
         )}
         </ul>
         {res==='white'?
-        <Button variant="outlined" style={{color:'black',border:'none',borderRadius:20,backgroundColor:'grey',width:'80%',marginLeft:20}}>{card.but}</Button>:
+        <Button variant="outlined" style={{color:'black',border:'none',borderRadius:20,backgroundColor:'grey',width:'80%',marginLeft:20,zIndex:0}}>{card.but}</Button>:
         <Button variant="outlined" style={{color:'white',border:'none',borderRadius:20,backgroundColor:'blue',marginLeft:20,width:'80%'}}>{card.but}</Button>
         }
         </div>
