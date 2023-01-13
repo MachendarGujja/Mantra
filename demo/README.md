@@ -29,6 +29,21 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### install material-ui 
+using the icons and simple buttons for application.
+
+### https://httpbin.org for dummy REST API
+using the dummy REST API to POST the form data to the endpoint of the json data.
+You can see the results in the console 
+
+### using the fetch for get the data from REST API using link.
+
+### install react-router-dom 
+just craeted the default path, so if required we can expand.
+
+### @media query 
+given the responsiveness using @media query based on device width
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
